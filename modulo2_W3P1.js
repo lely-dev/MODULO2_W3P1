@@ -83,40 +83,53 @@
 
 
 
-function giveMeRandom(n){
+// function giveMeRandom(n){
     
-    let myArrayNumb=[];
+//     let myArrayNumb=[];
 
 
-    for (let i = 0; i < 10; i +=1) {
-        let result = Math.floor(Math.random() * 10);
+//     for (let i = 0; i < 10; i +=1) {
+//         let result = Math.floor(Math.random() * 10);
        
-        myArrayNumb.push(result);
+//         myArrayNumb.push(result);
 
-    }
-         return myArrayNumb;
+//     }
+//          return myArrayNumb;
     
-}
+// }
 
-giveMeRandom()
+// giveMeRandom()
 
 //EXTRA:
 /* ESERCIZIO 1
  Scrivi una funzione chiamata "area" che riceve due parametri (l1, l2) e calcola l'area del rettangolo associato.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function area(base,altezza){
+//     return base*altezza;
+// }
+
+// console.log(area(11,12))
 
 /* ESERCIZIO 2
  Scrivi una funzione chiamata "crazyDiff" che calcola la differenza assoluta tra un numero fornito e 19.
  Se il valore calcolato è più grande di 19, la funzione deve tornare tale risultato moltiplicato per 3.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function crazyDiff(numb){
+//     if (numb > 19){
+//         console.log(numb * 3);
+//     }
+// }
+
+// crazyDiff(29)
+
+
 
 /* ESERCIZIO 3
  Scrivi una funzione chiamata "codify" che accetta una stringa come parametro.
- La funzione deve aggiungere la parola "code" all'inizio della stringa fornita e ritornare il risultato, ma se la stringa fornita comincia proprio con "code" allora deve ritornarla senza modifiche.
+ La funzione deve aggiungere la parola "code" all'inizio della stringa fornita e ritornare il risultato, 
+ ma se la stringa fornita comincia proprio con "code" allora deve ritornarla senza modifiche.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
@@ -130,7 +143,8 @@ giveMeRandom()
 /* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 5
- Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro e la ritorna senza il primo e l'ultimo carattere.
+ Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro e la ritorna senza il primo 
+ e l'ultimo carattere.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
