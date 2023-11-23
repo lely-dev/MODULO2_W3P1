@@ -132,19 +132,39 @@
  ma se la stringa fornita comincia proprio con "code" allora deve ritornarla senza modifiche.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// let myWord = "code";
+
+// function codify(sentence){
+//     if (sentence.startsWith(myWord)){
+//         console.log(sentence)
+//     } else {
+//         console.log(myWord.concat(sentence))
+//     }
+
+// }
+
+// codify("lollipop")
 
 /* ESERCIZIO 4
  Scrivi una funzione chiamata "check3and7" la quale accetta un numero intero positivo come parametro.
- La funzione deve controllare che tale parametro sia un multiplo di 3 o di 7, e in tal caso tornare true; altrimenti deve tornare false.
+ La funzione deve controllare che tale parametro sia un multiplo di 3 o di 7, e in tal caso tornare true; 
+ altrimenti deve tornare false.
  SUGGERIMENTO: operatore modulo
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function check3and7(n){
+//     return n % 3 === 0 || n % 7 === 0;
+// }
+
+// console.log(check3and7(5))
 
 /* ESERCIZIO 5
  Scrivi una funzione chiamata "cutString", che accetta una stringa come parametro e la ritorna senza il primo 
  e l'ultimo carattere.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+// function cutString(parola){
+//     return parola.slice(1,-1);
+// }
+
+// console.log(cutString("lollipop"))
